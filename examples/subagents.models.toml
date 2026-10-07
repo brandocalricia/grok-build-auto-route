@@ -1,0 +1,9 @@
+# Drop this table into ~/.grok/config.toml.
+# Leave general-purpose unpinned. Never pin grok-4.7-build-fast.
+
+[subagents.models]
+explore = "grok-4.5"
+route-read = "grok-4.5"
+route-edit = "grok-4.6"
+plan = "grok-4.7"
+route-hard = "grok-4.7"
